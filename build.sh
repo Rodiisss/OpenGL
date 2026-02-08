@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc -lglfw -lGL -lm src/window.c src/gl.c shaders/shader.c  -o window 
+gcc -g -lglfw -lGL -lm src/main.c src/gl.c shaders/shader.c src/stb_image.c  -o bin/LearnOpengGL 
